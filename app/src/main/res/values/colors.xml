@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#40c4ff</color>-->
+    <!--<color name="colorPrimaryDark">#1cc0fc</color>-->
+    <!--<color name="colorPrimary">#2673bb</color>-->
+    <color name="colorPrimary">#185aa4</color>
+    <color name="colorPrimaryDark">#194e92</color>
+    <color name="colorPrimaryLight">#229acc</color>
+    <color name="colorPrimarlight2">#80d8ff</color>
+    <color name="colorAccent">#185aa4</color>
+    <color name="white">#ffffff</color>
+    <color name="colorNavigation">#1c80c3</color>
+    <color name="colorProducktName">#108c79</color>
+    <color name="colorgreen">#43a047</color>
+    <color name="colorred">#e53935</color>
+    <color name="color_bg_lst">#b3e5fc</color>
+    <color name="color_price">#f4511e</color>
+    <color name="color_gray">#F5F5F5</color>
+    <color name="colorrate">#ffa726</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+    <color name="colororange">#ff6d00</color>
+    <color name="colorbtnOrderNow">#185aa4</color>
+    <color name="colorAmber">#ffc400</color>
+
+    //color dark #19ac23
+</resources>

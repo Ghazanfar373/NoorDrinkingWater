@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:alpha="0.9"
+    >
+<android.support.v7.widget.RecyclerView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+android:id="@+id/listorders"
+    android:layout_above="@+id/total_bill"
+android:name="com.pac.ideatech.noordrinkingwater.CartItemsFragment"
+app:layoutManager="LinearLayoutManager"
+tools:context=".CartItemsFragment"
+tools:listitem="@layout/fragment_order"
+    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+/>
+    <RelativeLayout
+       android:id="@+id/total_bill"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_gray"
+        android:layout_height="25dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ed_note"
+        android:textStyle="bold"
+        android:id="@+id/tv_subtotal"
+        android:textColor="@color/color_price"
+
+        android:text="Subtotal: 88 AED"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ed_note"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textColor="@color/color_price"
+        android:id="@+id/tv_total"
+        android:text="Total: 88 AED"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_coupon"
+        android:layout_above="@+id/tv_total"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:hint="Prepaid Coupon"/>
+    </RelativeLayout>
+</RelativeLayout>
+

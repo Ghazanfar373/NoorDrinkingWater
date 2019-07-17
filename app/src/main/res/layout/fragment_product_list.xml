@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ss.com.bannerslider.Slider
+        android:id="@+id/banner_slider1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:slider_interval="5000"
+        app:slider_loopSlides="true"
+        app:slider_defaultBanner="1"
+        android:paddingTop="2dp"
+        app:slider_animateIndicators="true"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        android:elevation="3dp"
+        />
+<android.support.v7.widget.RecyclerView
+    android:name="com.pac.ideatech.noordrinkingwater.ProductFragment"
+    android:layout_below="@+id/banner_slider1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:id="@+id/list"
+    android:layout_marginRight="8dp"
+    tools:listitem="@layout/fragment_product"
+    app:layoutManager="LinearLayoutManager"
+    tools:context="com.pac.ideatech.noordrinkingwater.ProductFragment"
+
+    />
+</RelativeLayout>

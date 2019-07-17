@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Products" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_suggestion"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="Suggesstion" />
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/ic_complaint_black_24dp"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+    </group>
+
+    <item android:title="Communicate" >
+        <menu>
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_star_half_black_24dp"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Sing out" />
+        </menu>
+    </item>
+
+</menu>

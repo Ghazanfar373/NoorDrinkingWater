@@ -1,0 +1,118 @@
+<resources>
+
+    <string name="app_name">Noor Drink Water</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Edit Profile</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="delete">Delete</string>
+    <string name="tax_tag"> All Prices including VAT 5%</string>
+    <string name="prompt_note">Note (Optional)</string>
+    <string name="prompt_onemorestep">One More Step</string>
+    <string name="prompt_contact">Contact no.</string>
+    <string name="prompt_fullname">Full Name</string>
+    <string name="prompt_address">Delivery Address</string>
+    <string name="release_key">AIzaSyARtdND4EWnC7Ssn5zcdGCg-R3pgSw0Ew4</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email (username)</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_re_password">Retype Password </string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_up">Not registered yet? Create account !</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_password_again">Password did not match!</string>
+    <string name="error_invalid_input">Mandatory field</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+        </string>
+    <string name="select_msg">Select or Capture Image file to be uploaded.</string>
+    <string name="action_sample">5 Liter Bottle</string>
+    <string name="action_price">100 AED</string>
+    <string name="action_order">Order Now</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_cart">Cart Items</string>
+    <string name="action_signin">Sign in</string>
+
+    <string name="action_share">Share this app</string>
+
+    <string name="gps_alert">Enable your GPS</string>
+    <string name="provider_alert">Enable GPS to proceede</string>
+    <string name="Cancel">Cancel</string>
+    <string name="data_alert">Enable your Network</string>
+    <string name="data_provider_alert">Enable Data to proceede</string>
+    <string name="title_activity_sign_upctivity">Sign up</string>
+    <string name="title_activity_signup_final">Sign up</string>
+
+    <string-array name="countries">
+        <item>Country</item>
+        <item>UAE</item>
+        <item>KSA</item>
+        <item>Pakistan</item>
+        <item>Iran</item>
+        <item>Malaysia</item>
+    </string-array>
+    <string-array name="consumtion">
+        <item>Consumptions per week</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="delivery">
+        <item>Preffered Delivery Day</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday </item>
+    </string-array>
+    <string-array name="areas">
+        <item>City</item>
+        <item>Ajman</item>
+        <item>Dubai</item>
+        <item>Sharjah</item>
+        <item>Abu Dhabi</item>
+        <item>Masqat</item>
+    </string-array>
+    <string-array name="feedack_type">
+        <item>Select subject</item>
+        <item>Quality</item>
+        <item>Service</item>
+        <item>Others</item>
+    </string-array>
+    <string name="hint_quantity">quantity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_product">Product: 5 Gallon Bottle</string>
+    <string name="title_order">Order Successfully Placed !</string>
+    <string name="title_price">100 AED</string>
+    <string name="title_total_price">Total Price: 100 AED</string>
+    <string name="title_add_cart">Add to Cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="rateus_fragment">Rate Us</string>
+    <string name="rate_fragment">Give your rating now</string>
+    <string name="feedback_fragment">Give your feedback</string>
+    <string name="suggest_fragment">Your Feedback is Valuable to Us</string>
+    <string name="privacy">*Your privacy is important to us. Your personal data will be used only to process your inquiries.</string>
+    <string name="guidlines">Your feedback is important to us. We value and appreciate your compliments, suggestions or complaints in order to improve our services and the way we communicate.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Shipping_fragment">Order Confirmation</string>
+    <string name="invoice_fragment">Order Preview</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_msg"> If you have any questions about our work, guarantees, services or any other aspects that are important for you - feel free to get in contact with us!</string>
+</resources>

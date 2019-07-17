@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    tools:context=".CheckoutActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container_checkout"
+        android:layout_above="@+id/ed_coupon"
+        >
+    </FrameLayout>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/ed_note"-->
+        <!--android:textStyle="bold"-->
+        <!--android:id="@+id/tv_subtotal"-->
+        <!--android:textColor="@color/color_price"-->
+
+        <!--android:text="Subtotal: 88 AED"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/ed_note"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/color_price"-->
+        <!--android:id="@+id/tv_total"-->
+        <!--android:text="Total: 88 AED"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_coupon"
+        android:layout_above="@+id/ed_note"
+        android:layout_centerHorizontal="true"
+         android:inputType="number"
+         android:textAlignment="center"
+        android:hint="Prepaid Coupon"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_note"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:hint="@string/prompt_note"
+        android:layout_above="@+id/btn_place_order"
+        android:layout_marginTop="8dp"
+
+
+
+        />
+<android.support.v7.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_place_order"
+    android:text="Delivery Address"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+   android:layout_marginBottom="5dp"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:layout_above="@+id/tag"
+    />
+
+    <TextView android:layout_width="wrap_content"
+        android:id="@+id/tag"
+        android:layout_height="wrap_content"
+        android:text="@string/tax_tag"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/msg_success"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_above="@+id/tag"
+        android:textColor="@color/colorgreen"
+        android:visibility="gone"
+        android:drawableLeft="@drawable/ic_thumb_up_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_order"/>
+
+</RelativeLayout>

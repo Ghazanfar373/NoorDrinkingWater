@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context=".ShippingAddrFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:id="@+id/idconfirm"
+    android:textColor="@color/colorPrimaryLight"
+        android:textSize="20dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/Shipping_fragment" />
+        <LinearLayout
+            android:layout_below="@+id/idconfirm"
+            android:id="@+id/img"
+
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_gray">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/delivery"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Shipping Address"
+                />
+        </LinearLayout>
+    <android.support.v7.widget.CardView
+
+        android:layout_below="@+id/img"
+        android:id="@+id/addressgrp"
+
+        android:layout_width="match_parent"
+        android:background="@color/color_gray"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/radiogrp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn1"
+                android:visibility="gone"
+                android:text="House no. 122 Street 24, Ajman"/>
+            <RadioButton
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="street. 13 Alhamidiya  24, Ajman"/>
+
+        </RadioGroup>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.AppCompatButton
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnaddloc"
+            android:layout_width="wrap_content"
+           android:layout_below="@+id/addressgrp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableRight="@drawable/ic_add_location_black_24dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="@color/colororange"
+            android:text="Add an address"/>
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btninvoice"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+          android:layout_above="@+id/contactmsg"
+            android:text="View Invoice" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_msg"
+        android:textAlignment="center"
+        android:id="@+id/contactmsg"
+        android:padding="4dp"
+        android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

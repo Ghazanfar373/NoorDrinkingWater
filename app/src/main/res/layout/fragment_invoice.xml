@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context=".ShippingAddrFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/idconfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryLight"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:fontFamily="sans-serif-condensed"
+
+            android:text="@string/invoice_fragment"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idconfirm"
+            android:background="@color/color_gray"
+            android:elevation="4dp">
+
+            <LinearLayout
+
+                android:id="@+id/img2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:src="@drawable/receipt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Invoice"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idconfirm"
+                android:layout_toRightOf="@+id/img"
+                android:orientation="vertical"
+
+                android:paddingLeft="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:id="@+id/ordernum"
+                        android:text="Order no:324213"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/orderdate"
+                        android:text="12-20-2012" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:padding="3dp"
+                    android:id="@+id/ordername"
+                    android:text="M.Ghazanfar Ali"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ordercontact"
+                    android:text="+923016008237" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+
+                        android:text="Address:"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/orderaddr"
+                        android:text="street. 13 Alhamidiya  24, Ajman" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cartdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/color_gray">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:textColor="@color/white"
+                android:id="@+id/tag"
+
+                android:background="@color/colorPrimaryLight"
+                android:text="Items Orderd"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/tag"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/header"
+                android:layout_weight="4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:text="Item Description"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+
+                    android:text="Qty"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="Amount"/>
+
+            </LinearLayout>
+            <ListView
+                android:layout_below="@+id/header"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:id="@+id/listviewinvoice">
+
+            </ListView>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cartdetails"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:id="@+id/balancedue"
+            android:fontFamily="sans-serif"
+            android:background="@color/colorAmber"
+            android:elevation="4dp"
+            android:text="Balance due:88 AED"/>
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn_cnfrm"
+            android:drawableRight="@drawable/ic_check_box_black_24dp"
+            android:text="Confirm Order" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
