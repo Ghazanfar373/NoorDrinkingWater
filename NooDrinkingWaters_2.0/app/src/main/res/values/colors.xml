@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E7EE2</color>
+    <color name="colorPrimaryDark">#095bdc</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorTransparent">#0000</color>
+    <color name="colorDarkGreen">#cc16910d</color>
+    <color name="colorBlack">#000</color>
+    <color name="medBlack">#8000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorLightestGrey1">#09000000</color>
+    <color name="colorLightestGrey2">#15000000</color>
+    <color name="colorLightGrey">#1000</color>
+    <color name="colorMedGrey">#4000</color>
+    <color name="colorDarkGrey">#6000</color>
+    <color name="colorDarkestGrey">#a000</color>
+
+    <color name="colorBGActiveOrder">#1BBA41</color>
+    <color name="colorBGCancelOrder">#FF5E56</color>
+    <color name="colorBGCartCounterText">#FF5E56</color>
+    <color name="colorBGProcessedOrder">@color/colorMedGrey</color>
+    <color name="colorTabTexSelected">@color/colorWhite</color>
+    <color name="colorTabTextNormal">#6094F0</color>
+    <color name="colorTintBottomBarSelected">@color/colorPrimary</color>
+    <color name="colorTintBottomBarNormal">@color/colorDarkGrey</color>
+    <color name="colorStarSelected">#f3ffdc43</color>
+    <color name="colorDemoDots">#FF5E56</color>
+    <color name="colorBGMessageDialog">#fff</color>
+    <color name="colorBGGetStarted">#FF5E56</color>
+    <color name="colorBGGetStartedShadow">#f9d2d1</color>
+    <color name="colorBGGetStartedShadow2">#f7e7e6</color>
+    <color name="colorPrimaryShadow">#a5c7fc</color>
+    <color name="colorPrimaryShadow2">#d2dff4</color>
+
+    <color name="colorText">#000</color>
+    <color name="colorBG">#fff</color>
+
+</resources>

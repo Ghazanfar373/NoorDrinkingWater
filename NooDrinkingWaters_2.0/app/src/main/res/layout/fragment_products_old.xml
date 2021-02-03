@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:coverflow="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp20"
+    tools:context="fragments.ProductsFragmentOld">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--
+        <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+            android:id="@+id/coverflow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            coverflow:coverHeight="@dimen/dp150"
+            coverflow:coverWidth="@dimen/dp150"
+            coverflow:maxScaleFactor="1.5"
+            coverflow:reflectionGap="0px"
+            coverflow:rotationThreshold="0.5"
+            coverflow:scalingThreshold="0.5"
+            coverflow:spacing="0.6" />
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivPrevious"
+            android:layout_width="@dimen/dp40"
+            android:layout_height="@dimen/dp40"
+            android:rotation="180"
+            android:visibility="invisible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvProducts"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="@dimen/dp5"
+            android:layout_weight="1"
+            android:background="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_width="@dimen/dp40"
+            android:layout_height="@dimen/dp40"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/dp20">
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp5"
+            android:text="@string/_00_00_aed_each"
+            android:textColor="@color/colorBGGetStarted"
+            android:textSize="@dimen/sp16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_gallon_bottle"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/sp20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp5"
+            android:text="@string/vat_5_include_in_price"
+            android:textColor="@color/colorMedGrey"
+            android:textSize="@dimen/sp16"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp20"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivLess"
+                android:layout_width="@dimen/dp40"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginRight="@dimen/dp10"
+                android:padding="@dimen/dp5"
+                android:src="@drawable/ic_minus_button" />
+
+            <TextView
+                android:id="@+id/tvQty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp10"
+                android:background="@color/colorLightGrey"
+                android:gravity="center"
+                android:minWidth="@dimen/dp60"
+                android:padding="@dimen/dp10"
+                android:text="0"
+                android:textSize="@dimen/sp20"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivMore"
+                android:layout_width="@dimen/dp40"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginRight="@dimen/dp10"
+                android:padding="@dimen/dp5"
+                android:src="@drawable/ic_plus" />
+
+            <LinearLayout
+                android:id="@+id/llAddToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp5"
+                android:background="@drawable/draw_bg_get_started"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp10"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16"
+                android:paddingTop="@dimen/dp10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_to_cart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp20"
+                    android:layout_height="@dimen/dp20"
+                    android:layout_marginLeft="@dimen/dp5"
+                    android:padding="@dimen/dp2"
+                    android:src="@drawable/ic_add_to_cart_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

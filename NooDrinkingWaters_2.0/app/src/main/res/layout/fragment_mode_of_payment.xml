@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.ModeOfPaymentFragment">
+
+    <ImageView
+        android:id="@+id/ivBG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp10"
+        android:paddingTop="@dimen/dp240"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginBottom="@dimen/dp20"
+        android:gravity="center"
+        android:text="@string/authorize_noor_water_with"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnSaveChanges"
+        android:layout_below="@id/tvHeader"
+        android:layout_centerInParent="true"
+        android:fillViewport="true"
+        android:paddingLeft="@dimen/dp30"
+        android:paddingTop="@dimen/dp20"
+        android:paddingRight="@dimen/dp30"
+        android:paddingBottom="@dimen/dp5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <helper.WidthDependentSquareLayout
+                    android:id="@+id/slCOD"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp10"
+                    android:layout_weight="1"
+                    android:background="@drawable/draw_bg_selected_mode_of_payment"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp10">
+
+                    <ImageView
+                        android:id="@+id/ivCOD"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/tvCOD"
+                        android:padding="@dimen/dp10" />
+
+                    <TextView
+                        android:id="@+id/tvCOD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="@string/cash_on_delivery"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sp14"
+                        android:textStyle="bold" />
+
+                </helper.WidthDependentSquareLayout>
+
+                <helper.WidthDependentSquareLayout
+                    android:id="@+id/slPC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp10"
+                    android:layout_weight="1"
+                    android:background="@drawable/draw_bg_et"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp10">
+
+                    <ImageView
+                        android:id="@+id/ivPC"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/tvPC"
+                        android:padding="@dimen/dp10" />
+
+                    <TextView
+                        android:id="@+id/tvPC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="@string/prepaid_coupon"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sp14"
+                        android:textStyle="bold" />
+
+                </helper.WidthDependentSquareLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <helper.WidthDependentSquareLayout
+                    android:id="@+id/slCC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp10"
+                    android:layout_weight="1"
+                    android:background="@drawable/draw_bg_et"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp10">
+
+                    <ImageView
+                        android:id="@+id/ivCC"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/tvCC"
+                        android:padding="@dimen/dp10" />
+
+                    <TextView
+                        android:id="@+id/tvCC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="@string/credit_card"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sp14"
+                        android:textStyle="bold" />
+
+                </helper.WidthDependentSquareLayout>
+
+                <helper.WidthDependentSquareLayout
+                    android:id="@+id/slCP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp10"
+                    android:layout_weight="1"
+                    android:background="@drawable/draw_bg_et"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp10">
+
+                    <ImageView
+                        android:id="@+id/ivCP"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/tvCP"
+                        android:padding="@dimen/dp10" />
+
+                    <TextView
+                        android:id="@+id/tvCP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="@string/credit_purchase"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sp14"
+                        android:textStyle="bold" />
+
+                </helper.WidthDependentSquareLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnViewInvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ivBG"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/draw_bg_get_started"
+        android:minWidth="@dimen/dp120"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingTop="@dimen/dp10"
+        android:paddingRight="@dimen/dp16"
+        android:paddingBottom="@dimen/dp10"
+        android:text="@string/view_invoice"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp14" />
+
+</RelativeLayout>

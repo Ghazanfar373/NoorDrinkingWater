@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/draw_bg_et"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp10"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingRight="@dimen/dp10"
+        android:paddingTop="@dimen/dp5">
+
+        <ImageView
+            android:id="@+id/ivProduct"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80"
+            android:gravity="center"
+            android:padding="@dimen/dp5"
+            android:src="@drawable/ic_bottle_blue" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp10"
+                android:text="@string/product_title"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/sp18"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvQtyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTitle"
+                android:text="@string/quantity_semi"
+                android:textColor="@color/colorDarkGrey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvQty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTitle"
+                android:layout_marginLeft="@dimen/dp5"
+                android:layout_toRightOf="@id/tvQtyTitle"
+                android:text="1"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/sp16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPriceTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTitle"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_toRightOf="@id/tvQty"
+                android:text="@string/price_semi"
+                android:textColor="@color/colorDarkGrey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTitle"
+                android:layout_marginLeft="@dimen/dp5"
+                android:layout_toRightOf="@id/tvPriceTitle"
+                android:text="1"
+                android:textColor="@color/colorBGGetStarted"
+                android:textSize="@dimen/sp16"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"
+        android:layout_alignRight="@id/llMain"
+        android:layout_marginRight="@dimen/mdp20"
+        android:layout_marginTop="@dimen/dp5"
+        android:background="@drawable/bg_close_button"
+        android:gravity="center"
+        android:padding="@dimen/dp5"
+        android:src="@drawable/ic_close" />
+
+</RelativeLayout>

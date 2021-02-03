@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ivProduct"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/draw_bg_primary_round"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp5"
+        android:paddingLeft="@dimen/dp20"
+        android:paddingRight="@dimen/dp20"
+        android:paddingTop="@dimen/dp5"
+        android:text="@string/_5_gallon_bottle"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold" />
+</RelativeLayout>

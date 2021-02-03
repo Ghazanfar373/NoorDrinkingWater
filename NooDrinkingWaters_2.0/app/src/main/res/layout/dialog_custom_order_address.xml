@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/draw_bg_message_dialog"
+        android:orientation="vertical">
+
+        <include layout="@layout/fragment_profile_address" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"
+        android:layout_alignRight="@id/llMain"
+        android:layout_marginRight="@dimen/mdp20"
+        android:layout_marginTop="@dimen/dp5"
+        android:background="@drawable/bg_close_button"
+        android:gravity="center"
+        android:padding="@dimen/dp5"
+        android:src="@drawable/ic_close" />
+
+</RelativeLayout>

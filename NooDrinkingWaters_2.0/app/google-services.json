@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "582348138351",
+    "firebase_url": "https://noorwaterclient-1546965996387.firebaseio.com",
+    "project_id": "noorwaterclient-1546965996387",
+    "storage_bucket": "noorwaterclient-1546965996387.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582348138351:android:6abc68375301ab9e28aa9a",
+        "android_client_info": {
+          "package_name": "com.frandydevs.apps.noordrinkingwater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582348138351-ku7fka92mcu4b0q913a7kkjprq4mgfa9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frandydevs.apps.noordrinkingwater",
+            "certificate_hash": "7bc5efd42934fed9ade555148d83852ef5dfd6f6"
+          }
+        },
+        {
+          "client_id": "582348138351-6tbag2a0tij571bcfbnj3dac5r5pkvq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIOtINSvHYn5mBLPFXwe5BLbQflQjldmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582348138351-6tbag2a0tij571bcfbnj3dac5r5pkvq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

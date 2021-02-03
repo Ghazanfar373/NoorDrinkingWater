@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp5"
+    tools:context=".WalletActivity">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="#fff"
+        card_view:cardElevation="10dp"
+        card_view:contentPadding="10dp"
+        android:layout_margin="@dimen/dp2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp150"
+        android:id="@+id/layoutbalance"
+        android:padding="@dimen/dp2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+            android:textStyle="normal"
+            android:textSize="30sp"
+            android:id="@+id/tvBalance"
+            />
+        <LinearLayout
+            android:layout_below="@+id/tvBalance"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/walletBalance"
+            android:text="$1278"
+            android:textSize="50sp"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:src="@drawable/eye_open"
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/dp2"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_below="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="106dp">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

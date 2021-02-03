@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">Noor Water</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="wait">Wait…</string>
+    <string name="something_wrong">Something wrong happened. Try again!</string>
+    <string name="select_from_multiple_products">Select from multiple\nproducts</string>
+    <string name="get_started">Get Started</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <!-- TODO: Remove or change this placeholder text -->`
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_online">Order Online</string>
+    <string name="get_your_home_delivery">Get your home delivery</string>
+    <string name="drinking_water_supply">Drinking Water Supply</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="your_privacy_is">Your privacy is important to us. Your personal data will be used only to process your inquiries</string>
+    <string name="register_now">Register Now</string>
+    <string name="new_customer">New Customer?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="signing_in">Signing In...</string>
+    <string name="registering">Registering...</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="reset">Reset</string>
+    <string name="title">Title</string>
+    <string name="this_is_message_text">This is message text</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="nozor_khan">Nozor Khan</string>
+    <string name="noorwater123_gmail_com">noorwater123@gmail.com</string>
+    <string name="send">Send</string>
+    <string name="write_us_your_suggestion">Write Us Your Suggestion</string>
+    <string name="type_your_message">Type your message</string>
+    <string name="type_a_text">Type a text</string>
+    <string name="attachment">Attachment</string>
+    <string name="write_us_your_complaint">Write Us Your Complaint</string>
+    <string name="name">Name</string>
+    <string name="contact_no">Contact No</string>
+    <string name="subject">Subject</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="order_deliverd">Congratulations.. your order has been delivered</string>
+    <string name="give_your_rating_now">Give Your Rating Now</string>
+    <string name="please_rate_our_service">Please Rate Our Service</string>
+    <string name="give_your_feedback">Give your feedback</string>
+    <string name="your_feedback_is_imp">Your feedback is important to us. We value and appreciate your compliments, suggestions or complaints in order to improve our services and the way we communicate.</string>
+    <string name="logout_message">Are you sure to logout?</string>
+    <string name="exit_message">Press once again to exit!</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="password_reset_message">Password reset successfully.</string>
+    <string name="ok">OK</string>
+    <string name="type_your_complaint">Type your complaint</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="choose_photo_source">Choose Photo Source</string>
+    <string name="trn">TRN</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="code">Code</string>
+    <string name="send_code">Send Code</string>
+    <string name="enter_code"><u>Enter Code</u></string>
+    <string name="a_code_will_be_sent_to_provided_email">A code will be sent to provided email.</string>
+    <string name="noor_drinking_water">Noor Drinking Water</string>
+    <string name="search">Search</string>
+    <string name="introducing_noor">Introducing Noor</string>
+    <string name="view_new_products">View New Products</string>
+    <string name="products">Products</string>
+    <string name="my_profile">My Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="new_offers">New Offers</string>
+    <string name="my_orders">My Orders</string>
+    <string name="profile">Profile</string>
+    <string name="via_phone">Via Phone</string>
+    <string name="via_email">Via Email</string>
+    <string name="home">Home</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="select_delivery_days">Select Delivery Days</string>
+    <string name="select_customer_type">Select Customer Type</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="order_number">Order Number #</string>
+    <string name="order_number_semi">Order Number # :</string>
+    <string name="status">Status</string>
+    <string name="wow_that_s_great">WoW that\'s great.</string>
+    <string name="winter_offer">Winter Offer</string>
+    <string name="update_address">Update Address</string>
+    <string name="building_name_no">Building Name/No</string>
+    <string name="house_no">House No</string>
+    <string name="google_maps_key">AIzaSyCIOtINSvHYn5mBLPFXwe5BLbQflQjldmM</string>
+    <string name="address">Address</string>
+    <string name="address_semi">Address :</string>
+    <string name="pick_address">Pick Address</string>
+    <string name="city">City</string>
+    <string name="ajman">Ajman</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="product_title">Product Title</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="offer_text">Buy 10 Bottles and get a hot a cold dispenser totally free. Offer valid till 17 January 2018.</string>
+    <string name="_5_gallon_bottle">5 Gallon Bottle</string>
+    <string name="vat_5_include_in_price">(VAT 5% Include in Price)</string>
+    <string name="_00_00_aed_each">00.00 AED/each</string>
+    <string name="go_to_cart">Go To Cart</string>
+    <string name="aed_each">AED/each</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="item_added_to_cart">Item added to cart</string>
+    <string name="plz_proceed">Please proceed to appropriate action</string>
+    <string name="subtotal_0_aed">Subtotal : 0 AED</string>
+    <string name="delivery_schedule">Delivery Schedule</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="quantity_semi">Quantity : </string>
+    <string name="price_semi">Price : </string>
+    <string name="confirm_address">Confirm Address</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="delivery_date_semi">Delivery Date :</string>
+    <string name="delivery_time">Delivery Time</string>
+    <string name="delivery_time_semi">Delivery Time :</string>
+    <string name="any_time">Any Time</string>
+    <string name="_08_00_am_12_00_pm">08:00 AM - 12:00 PM</string>
+    <string name="_04_00_pm_08_00_pm">04:00 PM - 08:00 PM</string>
+    <string name="_00_00_0000">00-00-0000</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="payment_mode_semi">Payment Mode :</string>
+    <string name="add_new_address">Add New Address</string>
+    <string name="house_no_street_no_building_no_city_country">House No, Street No, Building NO, City, Country</string>
+    <string name="authorize_noor_water_with">Authorize Noor Water with</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="prepaid_coupon">Prepaid Coupon</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="credit_purchase">Credit Purchase</string>
+    <string name="view_invoice">View Invoice</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="mode_of_payment">Mode Of Payment</string>
+    <string name="order_preview">Order Preview</string>
+    <string name="place_order">Place Order</string>
+    <string name="bill_summary">Bill Summary</string>
+    <string name="customer">Customer</string>
+    <string name="name_semi">Name :</string>
+    <string name="phone_number_semi">Phone Number :</string>
+    <string name="order_description">Order Description</string>
+    <string name="n_a">N/A</string>
+    <string name="item_description_semi">Item Description :</string>
+    <string name="items_semi">Items :</string>
+    <string name="_00_00">00:00</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="congratulation">Congratulation!</string>
+    <string name="total_amount_semi">Total Amount :</string>
+    <string name="proceed">Proceed</string>
+    <string name="cancel_order"><u>Cancel Order</u></string>
+    <string name="cancelled">Cancelled</string>
+    <string name="order_date_semi">Order Date :</string>
+    <string name="update">Update</string>
+    <string name="product">Product</string>
+    <string name="amount">Amount</string>
+    <string name="status_semi">Status:</string>
+    <string name="reason_semi">Reason:</string>
+    <string name="phone">Phone</string>
+
+    <string-array name="cities">
+        <item>Ajman</item>
+        <item>Dubai</item>
+        <item>Sharjah</item>
+        <item>Abu Dhabi</item>
+        <item>Masqat</item>
+    </string-array>
+    <string-array name="suggestions">
+        <item>Select Subject</item>
+        <item>Quality</item>
+        <item>Service</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="customerTypes">
+        <!--<item>Select Customer Type</item>-->
+        <item>Retailer</item>
+        <item>Industrial</item>
+        <item>Dealer</item>
+        <item>Shops</item>
+    </string-array>
+
+    <string-array name="deliveryDays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>
+
